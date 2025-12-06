@@ -1,5 +1,4 @@
 /* Hide e-mail address from menu */
-
 #appMenu-fxa-label2 #appMenu-header-description {
 	display: none !important;
 }

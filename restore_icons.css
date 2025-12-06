@@ -1,5 +1,4 @@
 /* Add icons to context menus */
-
 .subviewbutton:not(.subviewbutton-iconic, [checked="true"], [targetURI]) > .toolbarbutton-icon {
   width: 16px;
   height: 16px;
