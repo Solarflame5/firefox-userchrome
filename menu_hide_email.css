@@ -1,0 +1,9 @@
+/* Hide e-mail address from menu */
+
+#appMenu-fxa-label2 #appMenu-header-description {
+	display: none !important;
+}
+
+#appMenu-popup #appMenu-fxa-label2::after {
+  content: 'Firefox account' !important;
+}
