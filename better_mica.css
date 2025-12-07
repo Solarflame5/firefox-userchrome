@@ -1,0 +1,9 @@
+.browser-toolbar {
+    &:not(.browser-titlebar) {
+        background-color: light-dark(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.1)) !important;
+    }
+}
+
+:root:not([lwtheme]) {
+    --tab-selected-bgcolor: light-dark(rgb(255, 255, 255), rgba(255, 255, 255, 0.1)) !important;
+}
